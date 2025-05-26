@@ -1,0 +1,26 @@
+# Configurazioni sensibili
+config.php
+config.php.local
+config.php.prod
+
+# Backup e log
+*.sql.backup
+*.log
+backup/
+logs/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+tmp/
+cache/
+
+# Environment
+.env
